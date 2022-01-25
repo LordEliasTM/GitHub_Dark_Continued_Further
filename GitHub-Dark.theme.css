@@ -3,7 +3,7 @@
     * @version 1.0.2
     * @description A theme based off of the GitHub Dark theme.
     * @author Sango
-    * @source https://github.com/moistp1ckle/GitHub_Dark
+    * @source https://github.com/Synaelle/GitHub_Dark
     * @website https://github.com/moistp1ckle
 **/
 
@@ -517,5 +517,9 @@
 }
 
 .peopleColumn-1wMU14 {
-    background-color: #090C10;
+    background-color: var(--background-primary);
+}
+
+.container-YkUktl {
+    background-color: var(--background-secondary);
 }
