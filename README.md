@@ -1,5 +1,6 @@
 # GitHub Dark
 Fork of moistp1ckle's theme that try to stay updated
+
 A theme for BetterDiscord based off of the GitHub Dark theme.
 
 
