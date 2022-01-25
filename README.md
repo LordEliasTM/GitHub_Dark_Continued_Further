@@ -1,5 +1,5 @@
 # GitHub Dark
-Fork of moistp1ckle's theme that try to stay updated
+Fork of moistp1ckle's theme that try to stay updated. All rights are going to moistp1ckle since there is no licence!
 
 A theme for BetterDiscord based off of the GitHub Dark theme.
 
