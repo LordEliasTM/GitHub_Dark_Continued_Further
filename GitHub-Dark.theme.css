@@ -102,11 +102,12 @@
     --textbox-markdown-syntax: rgb(82, 89, 95);
 }
 
-.resultsGroup-r_nuzN {
+.resultsGroup-1BPR25 {
     background-color: var(--background-secondary);
     border-radius: var(--border-radius);
     border-left: var(--border);
     border-right: var(--border);
+    border-bottom: var(--border);
 }
 
 .lookBlank-3eh9lL {
@@ -281,19 +282,13 @@
     border: 1px solid transparent;
 }
 
-.sidebar-2K8pFh {
-    border-left: var(--border);
-    border-top: var(--border);
-    border-right: var(--border);
-}
-
 .theme-dark .root-1gCeng, .theme-dark .popoutList-T9CKZQ {
     background-color: var(--background-secondary);
     border: var(--border);
     border-radius: var(--border-radius);
 }
 
-.members-1998pB {
+.members-3WRCEx {
     border-left: var(--border);
 }
 
@@ -540,10 +535,6 @@
 .container-ZMc96U {
     border-top: var(--border);
     border-bottom: var(--border);
-}
-
-.members-3WRCEx {
-    border-left: var(--border);
 }
 
 .searchBarComponent-3N7dCG {
