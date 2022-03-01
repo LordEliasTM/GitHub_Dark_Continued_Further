@@ -1,6 +1,6 @@
 /**
     * @name GitHub Dark
-    * @version 1.0.5
+    * @version 1.0.6
     * @description A theme based off of the GitHub Dark theme.
     * @author Sango
     * @source https://github.com/Synaelle/GitHub_Dark
@@ -553,4 +553,18 @@
 .resultsGroup-cfY57t {
     background-color: var(--background-secondary);
     border: var(--border);
+}
+
+.container-1zzFcN {
+    background-color: var(--background-secondary);
+    border: var(--border);
+}
+
+.container-6sXIoE {
+    background-color: var(--background-secondary);
+    border-top: var(--border);
+}
+
+.panel-2ZFCRb {
+    background-color: var(--background-secondary);
 }
