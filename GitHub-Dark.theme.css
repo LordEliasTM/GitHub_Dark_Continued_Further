@@ -1,6 +1,6 @@
 /**
     * @name GitHub Dark
-    * @version 1.0.3
+    * @version 1.0.4
     * @description A theme based off of the GitHub Dark theme.
     * @author Sango
     * @source https://github.com/Synaelle/GitHub_Dark
@@ -540,4 +540,12 @@
 
 .searchBarComponent-3N7dCG {
     border: var(--border);
+}
+
+.autocomplete-3NRXG8 {
+    border: var(--border);
+}
+
+.autocompleteInner-y1mjDl {
+    background-color: var(--background-secondary);
 }
