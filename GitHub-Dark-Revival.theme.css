@@ -1,12 +1,11 @@
 /**
     * @name GitHub Dark Revival
-    * @version 1.0.8
+    * @version 1.0.9
     * @description A theme based off of the GitHub Dark theme.
     * @author Synaelle#0001
     * @authorId 143397715944931328
     * @source https://github.com/Synaelle/GitHub_Dark
     * @website https://github.com/Synaelle
-    * @updateUrl http://files.erethia.me/github-dark-revival/GitHub-Dark-Revival.theme.css
 **/
 
 :root {
@@ -571,4 +570,20 @@
 
 .searchBar-jGtisZ {
    border: var(--border);
+}
+
+.headerContainer-2jBkWP {
+    background-color: var(--background-primary);
+}
+
+.content-2hZxGK {
+    background-color: var(--background-primary);
+}
+
+.footer-31IekZ {
+    background-color: var(--background-primary) !important;
+}
+
+.select-1Ia3hD {
+    border: var(--border) !important;
 }
