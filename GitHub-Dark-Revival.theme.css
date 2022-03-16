@@ -1,6 +1,6 @@
 /**
     * @name GitHub Dark Revival
-    * @version 1.0.10
+    * @version 1.0.11
     * @description A theme based off of the GitHub Dark theme.
     * @author Synaelle#0001
     * @authorId 143397715944931328
@@ -519,7 +519,6 @@
 .container-YkUktl {
     background-color: var(--background-secondary);
     border-top: var(--border);
-    border-bottom: var(--border);
 }
 
 .sidebar-1tnWFu {
@@ -556,7 +555,7 @@
 
 .container-1zzFcN {
     background-color: var(--background-secondary);
-    border: var(--border);
+    border-top: var(--border);
 }
 
 .container-6sXIoE {
