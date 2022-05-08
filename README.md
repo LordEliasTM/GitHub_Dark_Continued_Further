@@ -1,4 +1,4 @@
-# GitHub Dark Revival
+# GitHub Dark Continued
 
 A theme for BetterDiscord & Powercord based off the GitHub Dark theme.
 
