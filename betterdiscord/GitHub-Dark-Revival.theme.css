@@ -1187,3 +1187,13 @@
 .theme-dark .option-ayUoaq:after {
   display: none;
 }
+
+/*
+#####################################################################################################
+Anything above this comment was NOT written by myself. I am only adding on-top of the original theme.
+#####################################################################################################
+*/
+
+.container-ZMc96U, .themed-Hp1KC_ {
+    background-color: rgb(9, 12, 16)!important;
+}
