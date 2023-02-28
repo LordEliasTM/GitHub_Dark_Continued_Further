@@ -1279,3 +1279,19 @@ main > section[role='navigation'] > div:first-child:after {
 [class *= nowPlayingColumn] [class *= itemCard]:hover {
   background-color: var(--background-secondary-alt) !important;
 }
+
+/* Vencord plugins panel */
+.vc-plugins-filter-controls {
+  --input-background: var(--background-tertiary);
+}
+.vc-plugins-filter-controls input {
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+.vc-plugins-filter-controls input:hover {
+  border-color: var(--border-color);
+}
+.vc-plugins-filter-controls [class *= select] {
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
