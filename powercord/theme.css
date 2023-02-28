@@ -1197,3 +1197,22 @@ Anything above this comment was NOT written by myself. I am only adding on-top o
     border-width: 1px;
     border-color: rgb(48, 54, 61);
 }
+
+/*
+#####################################################################################################
+Anything above this comment was NOT written by myself. I am only adding on-top of the original theme.
+#####################################################################################################
+*/
+
+main > section[role='navigation'] {
+    background: unset !important;
+}
+
+main > section[role='navigation'] > div:first-child:after {
+    background: unset !important;
+}
+
+.container-ZMc96U.transparent-1lUmft {
+    background: transparent !important;
+    border: none;
+}
