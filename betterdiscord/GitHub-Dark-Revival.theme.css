@@ -1224,7 +1224,55 @@ main > section[role='navigation'] > div:first-child:after {
     border: none;
 }
 
+/* Modals */
+
 :root {
     --modal-background: var(--background-primary);
     --modal-footer-background: var(--background-secondary);
+}
+
+/* Emoji Picker */
+
+:root {
+  --background-primary_: var(--background-primary);
+  --background-secondary_: var(--background-secondary);
+  --background-tertiary_: var(--background-tertiary);
+  --background-secondary-alt_: rgb(9, 13, 21);
+}
+
+.contentWrapper-3vHNP2 { 
+  background-color: var(--background-secondary_);
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+.contentWrapper-3vHNP2 [class *= searchBar] {
+  background-color: var(--background-tertiary_);
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+#emoji-picker-tab-panel {
+  border: unset !important;
+}
+#emoji-picker-tab-panel [class *= wrapper][class *= header] {
+  background-color: var(--background-secondary_);
+}
+#emoji-picker-tab-panel [class *= wrapper][class *= categoryList] {
+  background-color: var(--background-tertiary_);
+}
+#emoji-picker-tab-panel [class *= inspector] {
+  background-color: var(--background-secondary-alt_);
+}
+
+#sticker-picker-tab-panel  {
+  border: unset !important;
+}
+#sticker-picker-tab-panel [class *= wrapper][class *= packHeader] {
+  background-color: var(--background-secondary_);
+}
+#sticker-picker-tab-panel [class *= wrapper][class *= categoryList] {
+  background-color: var(--background-tertiary_);
+}
+#sticker-picker-tab-panel [class *= inspector] {
+  background-color: var(--background-secondary-alt_);
 }
