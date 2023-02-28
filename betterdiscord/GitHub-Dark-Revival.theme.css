@@ -1225,14 +1225,12 @@ main > section[role='navigation'] > div:first-child:after {
 }
 
 /* Modals */
-
 :root {
     --modal-background: var(--background-primary);
     --modal-footer-background: var(--background-secondary);
 }
 
 /* Emoji Picker */
-
 :root {
   --background-primary_: var(--background-primary);
   --background-secondary_: var(--background-secondary);
@@ -1275,4 +1273,9 @@ main > section[role='navigation'] > div:first-child:after {
 }
 #sticker-picker-tab-panel [class *= inspector] {
   background-color: var(--background-secondary-alt_);
+}
+
+/* Now active item card hover */
+[class *= nowPlayingColumn] [class *= itemCard]:hover {
+  background-color: var(--background-secondary-alt) !important;
 }
