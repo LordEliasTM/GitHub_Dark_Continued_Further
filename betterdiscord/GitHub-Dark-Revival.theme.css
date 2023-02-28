@@ -1223,3 +1223,8 @@ main > section[role='navigation'] > div:first-child:after {
     background: transparent !important;
     border: none;
 }
+
+:root {
+    --modal-background: var(--background-primary);
+    --modal-footer-background: var(--background-secondary);
+}
