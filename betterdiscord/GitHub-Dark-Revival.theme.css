@@ -1275,6 +1275,16 @@ main > section[role='navigation'] > div:first-child:after {
   background-color: var(--background-secondary-alt_);
 }
 
+[id *= popout] #emoji-picker-tab-panel > [class *= emojiPicker] {
+  background-color: var(--background-secondary_);
+}
+[id *= popout] #emoji-picker-tab-panel > [class *= header] {
+  background-color: var(--background-secondary_);
+}
+[id *= popout] #emoji-picker-tab-panel {
+  border: var(--border) !important;
+}
+
 /* Now active item card hover */
 [class *= nowPlayingColumn] [class *= itemCard]:hover {
   background-color: var(--background-secondary-alt) !important;
