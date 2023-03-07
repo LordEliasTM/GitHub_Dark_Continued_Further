@@ -1313,3 +1313,11 @@ main > section[role='navigation'] > div:first-child:after {
 .shc-lock-screen-allowed-users-and-roles-container {
   background-color: var(--background-secondary_) !important;
 }
+
+/* Discord overlay */
+[class *= messagesContainer] {
+  background: var(--background-primary);
+}
+[class *= footerContent] {
+  background: var(--background-primary);
+}
