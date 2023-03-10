@@ -1307,8 +1307,8 @@ main > section[role='navigation'] > div:first-child:after {
 }
 
 /* Fix some stuff with showHiddenChannels */
-[class *= callContainer] [class *= scrollerBase] {
-  background-color: var(--background-primary_);
+.shc-lock-screen-outer-container {
+  background-color: var(--background-primary_) !important;      
 }
 .shc-lock-screen-allowed-users-and-roles-container {
   background-color: var(--background-secondary_) !important;
