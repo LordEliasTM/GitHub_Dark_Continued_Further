@@ -1229,6 +1229,9 @@ main > section[role='navigation'] > div:first-child:after {
     --modal-background: var(--background-primary);
     --modal-footer-background: var(--background-secondary);
 }
+[class *= modal-] > [class *= footer-] {
+  background-color: var(--modal-footer-background);
+}
 
 /* Emoji Picker */
 :root {
