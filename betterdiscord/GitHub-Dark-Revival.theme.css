@@ -61,7 +61,8 @@
     --deprecated-quickswitcher-input-background: var(--channeltextarea-background)
 }
 
-.theme-light {
+/* Was bugged on profiles. Who even uses light mode */
+/*.theme-light {
     --background-secondary: rgb(13, 17, 23);
     --header-primary: rgb(240, 246, 252);
     --header-secondary: rgb(139, 148, 158);
@@ -70,7 +71,7 @@
     --background-floating: rgb(22, 27, 34);
     --background-tertiary: transparent;
     --deprecated-text-input-bg: rgb(7, 10, 16);
-}
+}*/
 
 .theme-dark {
     --text-positive: hsl(139, calc(var(--saturation-factor, 1)*66.8%), 58.6%);
